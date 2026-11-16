@@ -1,6 +1,6 @@
 import { createInterface } from "node:readline";
 import { styleText } from "node:util"
-import { generateSqlObject, generateTextAnswer } from "./ai.js";
+import { generateSqlObject, generateTextAnswer } from "./agent.js";
 import { createDb } from "./db.js";
 import { DB_NAME } from "./constants.js";
 
